@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hublake</title>
+    <link rel="stylesheet" href="hublake.css">
+</head>
+<body>
+    <!-- wep access/nav page -->
+    <nav id="article">
+        <h1>scrum-tecnologies</h1>
+        <div class="nav-bar">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">blog</a>
+            <a id="contact" href="#">contact</a>
+        </div>
+        <!-- animated feature paragraph -->
+<div class="animated">
+        <h1>welcome</h1>
+           <p> ipsum dolor sit amet consectetur adipisicing elit.
+            Repudiandae doloremque, dolorum rerum incidunt non eveniet 
+            repellendus maxime unde nam quod? Debitis cum voluptates laboriosam dolorem,
+            consequatur nihil illum pariatur ratione?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nihil eligendi dicta dolore minus commodi eos nisi dolor vero, 
+            temporibus sequi obcaecati exercitationem culpa pariatur dolorem quo quam iste ex quod.
+        </p>
+</div>
+    <div class="centered">
+        <a id="read" href="readmore">Read more</a>
+    </div>
+    </nav>
+    <!-- end of web access/navpage -->
+    <!-- main paragraph -->
+<!-- <main class="wrapper"> -->
+    <main>
+        <div class="first-paragraph">
+            <h2>explore</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Molestiae sint sed rem totam atque est cupiditate vel hic ipsa tenetur
+            debitis necessitatibus ad similique, ducimus corrupti voluptatem accusamus, laborum consectetur?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Maiores, rem rerum? Dicta illum atque corporis aperiam delectus sunt id repellendus 
+            rem sed numquam pariatur recusandae nostrum placeat quidem, iste unde!</p>
+        </div>
+        <div class="catalog">
+            <h1>boot-camp</h1>
+        </div>
+        <div class="catalog">
+                    <div class="mySlides">
+                        <img src="cybersecurity.png" width="100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="web-development.png" width="100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="data analysis.png" width="100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="content.png" width="100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="project-management.png" width="100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="product-design.png" width="100%">
+                    </div>
+            <script>
+               /* let slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    let i;
+                    const slides =
+                    document.getElementsByClassName("mySlides");
+                }
+                for (i = 0; i < mySlides.length; i++) {
+                    }
+
+                    { 
+                       slides[i].style.display = "none"
+                }
+
+                
+                slideIndex++;
+
+                if (slidesIndex > mySlides.length)
+                
+            {
+                    slidesIndex = 1;
+                }
+
+                {
+                slides[slideIndex - 1].style.display = "block";
+                    setTimeout (showSlides, 2000); // change slide every 2 seconds(adjust as needed)
+               }*/
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        const slides = document.getElementsByClassName("mySlides");
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        slideIndex++;
+
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change slide every 2 seconds (adjust as needed)
+    }
+</script>
+
+        </div>
+        
+    <div class="contain">
+        <div class="box-1">
+            <h3>web-development</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Harum aperiam nisi temporibus ipsa cumque quos reiciendis, 
+            nam consectetur eius odio error minus. Sed odio unde opto</p>
+            <a style="margin: 30%; margin-top: 2em;" href="#">Learn more</a>
+        </div>
+        <div class="box-2">
+            <h3>content-marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Sequi deserunt quaerat, iste vitae cumque non atque aliquid
+            Eaque ipsam tenetur quidem quo expedita nulla, iusto labore!</p>
+            <a style="margin: 30%" href="#">Learn more</a>
+        </div>
+        <div class="box-3">
+            <h3>data-analysis</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisic. 
+                Perspiciatis maxime harum reiciendis velit ipsum, 
+                at et cumque alias, delectus nemo sequi, odio vel
+                commodi voluptate facere similique tempore omnis.</p>
+                <a style="margin: 30%" href="#">Learn more</a>
+            </div>
+        <div class="box-4">
+            <h3>cyber-security</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Numquam et impedit sed omnis reprehenderit dignissimos inventore
+            Fugit eum nisi totam deserunt accusantium, consectetur cumque blanditiis.</p>
+            <a style="margin: 30%;" href="#">Learn more</a>
+        </div>
+        <div class="box-5">
+            <h3>product-design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Doloribus nihil cupiditate eveniet itaque 
+            voluptatibus iste molestias dolores dicta 
+            totam deleniti quaerat nihil ipsa error impedit magni doloribus.
+           </p>
+            <a style="margin: 30%" href="#">Learn more</a>
+        </div>
+        <div class="box-6">
+          <h3>project-management</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Iusto ea, sit dolorem maiores dolquos ducimus.
+            Iure quidem labore delectus 
+            maiores sapiente eligendi qui fuga?
+            <a style="margin: 25%;" href="#">Learn more</a>  
+          </p>
+        </div>
+    </div>
+
+    <div>
+        <h3></h3>
+    </div>
+    <!-- <div class="about"> 
+        <h3 style="font-family: 'Franklin Gothic Medium',;
+         text-align: center; color: brown; text-transform: uppercase; padding-top: 50px; 
+         text-decoration: underline;">mentorship</h3>
+    </div>-->
+</main>
+<!-- end of main paragraph -->
+<footer>
+    <div class="social">
+       
+    </div>
+</footer>
+</body>
+</html>
